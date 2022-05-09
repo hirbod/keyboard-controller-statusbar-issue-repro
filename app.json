@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "keyboard-statusbar-repro",
+    "slug": "snack-b3a5fb52-a78a-4092-af2d-84417a64d0e8",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "androidStatusBar": {
+      "translucent": true
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jakov.glavina.snackb3a5fb52a78a4092af2d84417a64d0e8"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.keyboard.test.snackb3a5fb52a78a4092af2d84417a64d0e8"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
